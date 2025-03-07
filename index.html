@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>С 8 Марта!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stars"></div>
+<div id="petals-container"></div>
+
+<!-- Вступительный экран -->
+<div class="intro-screen">
+  <h1>с 8 марта!</h1>
+  <h2>лю тя</h2>
+  <button id="openBtn"><span>Открыть поздравление</span></button>
+</div>
+
+<!-- Экран с поздравлением и розой -->
+<div class="congrats-screen">
+  <h2>с праздником, дианочка!</h2>
+  <p>с 8 марта тебяяя пусть весна принесет море улыбок, радости и кучу приятных сюрпризов! Оставайся такой же яркой и весёлой, как ты есть! <3</p>
+
+
+  <div class="bouquet-container">
+    <div class="animated-bouquet" id="bouquet-btn">
+      <div class="container">
+        <div class="glass"></div>
+        <div class="thorns">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="glow"></div>
+        <div class="rose-leaves">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="rose-petals">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="sparkles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div class="bouquet-hint">жмякни на розу, чтобы получить комплимент</div>
+  </div>
+
+  <div id="compliment-container" class="compliment-container">
+    <div id="compliment" class="compliment"></div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
